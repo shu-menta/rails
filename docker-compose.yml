@@ -4,3 +4,5 @@ services:
     build:
       context: .
     command: bundle exec rails s -e production
+    ports:
+      - "127.0.0.1:3000:3000"
