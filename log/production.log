@@ -1,0 +1,22 @@
+W, [2023-10-01T05:00:57.848445 #18201]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+W, [2023-10-01T05:01:11.713870 #18277]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+I, [2023-10-01T05:01:19.180716 #18277]  INFO -- : [9f4eff28-b1bd-4a6b-b5f8-fff09a3a747d] Started GET "/" for 127.0.0.1 at 2023-10-01 05:01:19 +0000
+F, [2023-10-01T05:01:19.181046 #18277] FATAL -- : [9f4eff28-b1bd-4a6b-b5f8-fff09a3a747d]   
+[9f4eff28-b1bd-4a6b-b5f8-fff09a3a747d] ActionController::RoutingError (No route matches [GET] "/"):
+[9f4eff28-b1bd-4a6b-b5f8-fff09a3a747d]   
+I, [2023-10-01T05:03:06.492873 #18277]  INFO -- : [a8ed01c5-0aa1-4cb1-ba55-53dc651236ea] Started GET "/login" for 127.0.0.1 at 2023-10-01 05:03:06 +0000
+F, [2023-10-01T05:03:06.493119 #18277] FATAL -- : [a8ed01c5-0aa1-4cb1-ba55-53dc651236ea]   
+[a8ed01c5-0aa1-4cb1-ba55-53dc651236ea] ActionController::RoutingError (No route matches [GET] "/login"):
+[a8ed01c5-0aa1-4cb1-ba55-53dc651236ea]   
+I, [2023-10-01T05:03:11.803092 #18277]  INFO -- : [0bdf365c-3dc9-4155-ad94-53cb91e5008e] Started GET "/login/aa" for 127.0.0.1 at 2023-10-01 05:03:11 +0000
+I, [2023-10-01T05:03:11.807611 #18277]  INFO -- : [0bdf365c-3dc9-4155-ad94-53cb91e5008e] Processing by LoginController#index as HTML
+I, [2023-10-01T05:03:11.807700 #18277]  INFO -- : [0bdf365c-3dc9-4155-ad94-53cb91e5008e]   Parameters: {"name"=>"aa"}
+I, [2023-10-01T05:03:11.808382 #18277]  INFO -- : [0bdf365c-3dc9-4155-ad94-53cb91e5008e] Completed 200 OK in 1ms (Views: 0.2ms | Allocations: 303)
+I, [2023-10-01T05:03:11.848219 #18277]  INFO -- : [d747f10b-ceaf-46d0-9e2e-2eaa322ffd2e] Started GET "/favicon.ico" for 127.0.0.1 at 2023-10-01 05:03:11 +0000
+F, [2023-10-01T05:03:11.848498 #18277] FATAL -- : [d747f10b-ceaf-46d0-9e2e-2eaa322ffd2e]   
+[d747f10b-ceaf-46d0-9e2e-2eaa322ffd2e] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[d747f10b-ceaf-46d0-9e2e-2eaa322ffd2e]   
+I, [2023-10-01T05:03:58.975941 #18277]  INFO -- : [6bc667ca-4ee6-4c06-9d9a-8ec9a9700c8e] Started GET "/login/1" for 127.0.0.1 at 2023-10-01 05:03:58 +0000
+I, [2023-10-01T05:03:58.976641 #18277]  INFO -- : [6bc667ca-4ee6-4c06-9d9a-8ec9a9700c8e] Processing by LoginController#index as HTML
+I, [2023-10-01T05:03:58.976702 #18277]  INFO -- : [6bc667ca-4ee6-4c06-9d9a-8ec9a9700c8e]   Parameters: {"name"=>"1"}
+I, [2023-10-01T05:03:58.976946 #18277]  INFO -- : [6bc667ca-4ee6-4c06-9d9a-8ec9a9700c8e] Completed 200 OK in 0ms (Views: 0.1ms | Allocations: 63)
