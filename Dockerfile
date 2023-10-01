@@ -25,4 +25,4 @@ COPY . /app
 
 RUN RAILS_ENV=production bundle exec rails db:setup || echo already_exists_db
 
-EXPOSE 3000
+EXPOSE 3000:3000
